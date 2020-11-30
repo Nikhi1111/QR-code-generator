@@ -1,0 +1,44 @@
+*
+{
+	margin:0;
+	padding: 0;
+	font-family: 'IBM Plex Sans', sans-serif;
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+.QRWrapper
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+input#qr-text
+{
+	font-size: 18px;
+	padding: 10px 20px;
+	outline: 0;
+	border: 1px solid #0f62fe;
+	min-width: 300px;
+}
+button.qr-btn
+{
+	display: block;
+	border:1px solid transparent;
+	background: #0f62fe;
+	color: #fff;
+	padding: calc(.875rem - 3px) 60px calc(.875rem - 3px) 20px;
+	width: 100%;
+	font-size: 18px;
+	text-align: left;
+	outline: 0;
+	cursor: pointer;
+}
+.QRWrapperInner
+{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	grid-row-gap: 21px;
+}
